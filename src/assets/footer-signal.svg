@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 140" fill="none" role="img" aria-label="Project signal map - ExecLens, Sprint Poker, DrawnGuess, CodeNest">
+  <defs>
+    <linearGradient id="trace" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#58A6FF" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#1f6feb" stop-opacity="0.35"/>
+    </linearGradient>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="1.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="8" y="16" width="624" height="108" rx="12" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+
+  <g transform="translate(72,70)">
+    <circle cx="0" cy="0" r="34" stroke="#30363d" stroke-width="1.5" fill="none"/>
+    <path d="M0,-34 A34,34 0 1 1 -24,24" stroke="url(#trace)" stroke-width="2.5" fill="none" stroke-linecap="round" filter="url(#glow)">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="8s" repeatCount="indefinite"/>
+    </path>
+    <text x="0" y="4" text-anchor="middle" fill="#58A6FF" font-family="ui-monospace, monospace" font-size="8" font-weight="bold">loop</text>
+  </g>
+
+  <g stroke="#1f6feb" stroke-width="1.5" stroke-linecap="round" opacity="0.5">
+    <path d="M118 70 H168"/>
+    <path d="M472 70 H522"/>
+  </g>
+  <g stroke="url(#trace)" stroke-width="2" stroke-linecap="round" filter="url(#glow)">
+    <path d="M118 70 H168"/>
+    <path d="M472 70 H522"/>
+  </g>
+
+  <g font-family="ui-monospace, monospace" font-size="9" font-weight="bold">
+    <g transform="translate(210,70)">
+      <rect x="-36" y="-22" width="72" height="44" rx="8" fill="#161b22" stroke="#238636" stroke-width="1.5"/>
+      <text x="0" y="-4" text-anchor="middle" fill="#3FB950">ExecLens</text>
+      <text x="0" y="12" text-anchor="middle" fill="#8B949E" font-size="7">shipped</text>
+    </g>
+    <g transform="translate(320,70)">
+      <rect x="-36" y="-22" width="72" height="44" rx="8" fill="#161b22" stroke="#238636" stroke-width="1.5"/>
+      <text x="0" y="-4" text-anchor="middle" fill="#3FB950">Sprint</text>
+      <text x="0" y="12" text-anchor="middle" fill="#8B949E" font-size="7">shipped</text>
+    </g>
+    <g transform="translate(430,70)">
+      <rect x="-36" y="-22" width="72" height="44" rx="8" fill="#161b22" stroke="#d29922" stroke-width="1.5"/>
+      <text x="0" y="-4" text-anchor="middle" fill="#E3B341">Drawn</text>
+      <text x="0" y="12" text-anchor="middle" fill="#8B949E" font-size="7">WIP</text>
+    </g>
+  </g>
+
+  <g stroke="#30363d" stroke-width="1.5" stroke-linecap="round">
+    <path d="M246 70 H284"/>
+    <path d="M356 70 H394"/>
+  </g>
+
+  <g transform="translate(568,70)">
+    <rect x="-28" y="-18" width="56" height="36" rx="6" fill="#161b22" stroke="#58A6FF" stroke-width="1.5"/>
+    <text x="0" y="4" text-anchor="middle" fill="#58A6FF" font-size="8" font-weight="bold">CodeNest</text>
+  </g>
+
+  <circle r="3" fill="#58A6FF">
+    <animateMotion dur="3s" repeatCount="indefinite" path="M130,70 L160,70 L210,70"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3" fill="#3FB950">
+    <animateMotion dur="3s" begin="1s" repeatCount="indefinite" path="M280,70 L320,70"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="3s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="320" y="128" text-anchor="middle" fill="#484F58" font-family="ui-monospace, monospace" font-size="8">signal closed - still shipping</text>
+</svg>

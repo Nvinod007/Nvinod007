@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" fill="none" role="img" aria-label="Circuit board header">
+  <defs>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#58A6FF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#1f6feb" stop-opacity="0.3"/>
+    </linearGradient>
+    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Base traces -->
+  <g stroke="#1f6feb" stroke-width="1.5" stroke-linecap="round" opacity="0.45">
+    <path d="M0 60 H120 M120 60 V30 M120 30 H280 M280 30 V60 M280 60 H400"/>
+    <path d="M400 60 V90 M400 90 H560 M560 90 V60 M560 60 H680 M680 60 V40 M680 40 H800"/>
+    <path d="M200 60 V80 M200 80 H320 M320 80 V60"/>
+    <path d="M480 60 V35 M480 35 H620"/>
+  </g>
+
+  <!-- Glow traces -->
+  <g stroke="url(#glow)" stroke-width="2" stroke-linecap="round" filter="url(#blur)">
+    <path d="M0 60 H120 M120 60 V30 M120 30 H280 M280 30 V60 M280 60 H400"/>
+    <path d="M400 60 V90 M400 90 H560 M560 90 V60 M560 60 H680 M680 60 V40 M680 40 H800"/>
+  </g>
+
+  <!-- Nodes -->
+  <g fill="#0d1117" stroke="#58A6FF" stroke-width="2">
+    <circle cx="120" cy="60" r="7"/><circle cx="120" cy="30" r="5"/>
+    <circle cx="280" cy="30" r="6"/><circle cx="280" cy="60" r="7"/>
+    <circle cx="400" cy="60" r="9"/>
+    <circle cx="560" cy="90" r="6"/><circle cx="560" cy="60" r="7"/>
+    <circle cx="680" cy="40" r="5"/><circle cx="200" cy="80" r="4"/>
+    <circle cx="480" cy="35" r="4"/>
+  </g>
+
+  <!-- Chip center -->
+  <rect x="372" y="44" width="56" height="32" rx="4" fill="#161b22" stroke="#58A6FF" stroke-width="1.5"/>
+  <g stroke="#58A6FF" stroke-width="1" opacity="0.7">
+    <line x1="372" y1="52" x2="364" y2="52"/><line x1="372" y1="60" x2="364" y2="60"/>
+    <line x1="372" y1="68" x2="364" y2="68"/><line x1="428" y1="52" x2="436" y2="52"/>
+    <line x1="428" y1="60" x2="436" y2="60"/><line x1="428" y1="68" x2="436" y2="68"/>
+  </g>
+  <text x="400" y="64" text-anchor="middle" fill="#58A6FF" font-family="monospace" font-size="9" font-weight="bold">VK</text>
+
+  <!-- Pulse dots -->
+  <circle cx="120" cy="60" r="3" fill="#58A6FF" opacity="0.9">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="400" cy="60" r="4" fill="#1f6feb" opacity="0.8">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="680" cy="40" r="3" fill="#58A6FF" opacity="0.7">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+</svg>

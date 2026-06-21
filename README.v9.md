@@ -44,13 +44,13 @@ Most days I ship **React Native** and **React web** for enterprise smart-home pr
 
 ### ExecLens — see the JavaScript event loop
 
-Async bugs in React Native drove me crazy. Stack traces tell you _where_; they rarely show _when_ microtasks and macrotasks interleave. I built a step-by-step visualizer — click through execution like a debugger for the event loop.
+Async bugs in React Native drove me crazy. Stack traces tell you *where*; they rarely show *when* microtasks and macrotasks interleave. I built a step-by-step visualizer — click through execution like a debugger for the event loop.
 
-|             |                                                  |
-| ----------- | ------------------------------------------------ |
-| **Problem** | Async bugs in RN — couldn't _see_ the event loop |
-| **Stack**   | Next.js · TypeScript                             |
-| **Status**  | Shipped                                          |
+| | |
+|---|---|
+| **Problem** | Async bugs in RN — couldn't *see* the event loop |
+| **Stack** | Next.js · TypeScript |
+| **Status** | Shipped |
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-js--exec--lens.vercel.app-238636?style=for-the-badge&logo=vercel&logoColor=white)](https://js-exec-lens.vercel.app/)
 [![Source](https://img.shields.io/badge/Source-exec--lens-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nvinod007/exec-lens)
@@ -61,10 +61,9 @@ Async bugs in React Native drove me crazy. Stack traces tell you _where_; they r
 <td width="50%" valign="top">
 
 ### Sprint Poker
-
 Zero-login planning poker — open **one link**, no accounts, no context switching.
 
-> _Sprint planning kept breaking flow — built poker my team opens instantly._
+> *Sprint planning kept breaking flow — built poker my team opens instantly.*
 
 [![Live](https://img.shields.io/badge/Live-sprintpoker.vercel.app-58A6FF?style=for-the-badge&logo=vercel&logoColor=white)](https://sprintpoker.vercel.app/)
 [![Code](https://img.shields.io/badge/Code-sprint--poker-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nvinod007/sprint-poker)
@@ -73,10 +72,9 @@ Zero-login planning poker — open **one link**, no accounts, no context switchi
 <td width="50%" valign="top">
 
 ### DrawnGuess · WIP — building now
-
 Real-time multiplayer drawing — lobby live at [drawnplay.vercel.app](https://drawnplay.vercel.app/); gameplay next.
 
-> _Learning real-time multiplayer + Canvas without a tutorial-shaped safety net — shipping in layers._
+> *Learning real-time multiplayer + Canvas without a tutorial-shaped safety net — shipping in layers.*
 
 [![Live](https://img.shields.io/badge/Live-drawnplay.vercel.app-d29922?style=for-the-badge&logo=vercel&logoColor=white)](https://drawnplay.vercel.app/)
 [![Code](https://img.shields.io/badge/Code-drawnguess-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nvinod007/drawnguess)
@@ -87,10 +85,9 @@ Real-time multiplayer drawing — lobby live at [drawnplay.vercel.app](https://d
 <td width="50%" valign="top">
 
 ### CodeNest
-
 **Nx monorepo** — portfolio, apps, and shared UI/libs in one place.
 
-> _Scattered one-off repos weren't scaling — structured a workspace that grows together._
+> *Scattered one-off repos weren't scaling — structured a workspace that grows together.*
 
 [![Live](https://img.shields.io/badge/Live-vinodkumar--flame.vercel.app-58A6FF?style=for-the-badge&logo=vercel&logoColor=white)](https://vinodkumar-flame.vercel.app/)
 [![Code](https://img.shields.io/badge/Code-code--nest-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nvinod007/code-nest)
@@ -99,12 +96,11 @@ Real-time multiplayer drawing — lobby live at [drawnplay.vercel.app](https://d
 <td width="50%" valign="top">
 
 ### Proof of work
-
-| Metric             | Value                         |
-| ------------------ | ----------------------------- |
-| Production tenure  | **3 years** (Apr 2023 – now)  |
-| Test coverage      | **90%** Jest on RN Web portal |
-| Side projects live | **3** shipped + 1 WIP         |
+| Metric | Value |
+|--------|-------|
+| Production tenure | **3 years** (Apr 2023 – now) |
+| Test coverage | **90%** Jest on RN Web portal |
+| Side projects live | **3** shipped + 1 WIP |
 
 </td>
 </tr>
@@ -114,13 +110,13 @@ Real-time multiplayer drawing — lobby live at [drawnplay.vercel.app](https://d
 
 ## Production experience
 
-_Enterprise smart-home / HVAC — shipped to app stores and production URLs. Mobile isn't "web but smaller." Production taught me that the hard way._
+*Enterprise smart-home / HVAC — shipped to app stores and production URLs. Mobile isn't "web but smaller." Production taught me that the hard way.*
 
-| Product              | What I did                                                                  | Tech                                            | Link                                          |
-| -------------------- | --------------------------------------------------------------------------- | ----------------------------------------------- | --------------------------------------------- |
-| **SmartHome Mobile** | Production RN at scale — TalkBack a11y, i18n, Wi‑Fi edge cases              | React Native                                    | App stores                                    |
-| **Consumer Portal**  | Bootstrapped RN Web from scratch — SEO, deep linking, **90% test coverage** | RN Web · Jest                                   | [Live](https://my.carrier.com/login)          |
-| **Support Portal**   | Full-stack ownership — geolocation routing, queues, caching                 | React 18 · RTK Query · MongoDB · Redis · BullMQ | [Live](https://customer-support-007.web.app/) |
+| Product | What I did | Tech | Link |
+|---------|------------|------|------|
+| **SmartHome Mobile** | Production RN at scale — TalkBack a11y, i18n, Wi‑Fi edge cases | React Native | App stores |
+| **Consumer Portal** | Bootstrapped RN Web from scratch — SEO, deep linking, **90% test coverage** | RN Web · Jest | [Live](https://my.carrier.com/login) |
+| **Support Portal** | Full-stack ownership — geolocation routing, queues, caching | React 18 · RTK Query · MongoDB · Redis · BullMQ | [Live](https://customer-support-007.web.app/) |
 
 ---
 
@@ -152,8 +148,8 @@ _Enterprise smart-home / HVAC — shipped to app stores and production URLs. Mob
 <details>
 <summary><b>Backend & experiments</b></summary>
 
-| Repo                                                                              | Focus                                                                |
-| --------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| Repo | Focus |
+|------|-------|
 | [nestjs-grpc-auth-service](https://github.com/Nvinod007/nestjs-grpc-auth-service) | Service-to-service auth beyond REST — gRPC + NestJS microservice POC |
 
 </details>
@@ -161,12 +157,12 @@ _Enterprise smart-home / HVAC — shipped to app stores and production URLs. Mob
 <details>
 <summary><b>Resume PDFs</b> (role-targeted · 1 page each)</summary>
 
-| Variant                                                                                | Best for                     | PDF                                                                                |
-| -------------------------------------------------------------------------------------- | ---------------------------- | ---------------------------------------------------------------------------------- |
-| [React Native](https://vinodkumar-flame.vercel.app/resumes/VinodKumar_ReactNative.pdf) | Mobile / RN roles            | [Download](https://vinodkumar-flame.vercel.app/resumes/VinodKumar_ReactNative.pdf) |
-| [React Web](https://vinodkumar-flame.vercel.app/resumes/VinodKumar_ReactWeb.pdf)       | Frontend / web roles         | [Download](https://vinodkumar-flame.vercel.app/resumes/VinodKumar_ReactWeb.pdf)    |
-| [Fullstack](https://vinodkumar-flame.vercel.app/resumes/VinodKumar_Fullstack.pdf)      | Full-stack / backend-forward | [Download](https://vinodkumar-flame.vercel.app/resumes/VinodKumar_Fullstack.pdf)   |
-| [SDE1](https://vinodkumar-flame.vercel.app/resumes/VinodKumar_SDE1.pdf)                | General / early-career SWE   | [Download](https://vinodkumar-flame.vercel.app/resumes/VinodKumar_SDE1.pdf)        |
+| Variant | Best for | PDF |
+|---------|----------|-----|
+| [React Native](https://vinodkumar-flame.vercel.app/resumes/VinodKumar_ReactNative.pdf) | Mobile / RN roles | [Download](https://vinodkumar-flame.vercel.app/resumes/VinodKumar_ReactNative.pdf) |
+| [React Web](https://vinodkumar-flame.vercel.app/resumes/VinodKumar_ReactWeb.pdf) | Frontend / web roles | [Download](https://vinodkumar-flame.vercel.app/resumes/VinodKumar_ReactWeb.pdf) |
+| [Fullstack](https://vinodkumar-flame.vercel.app/resumes/VinodKumar_Fullstack.pdf) | Full-stack / backend-forward | [Download](https://vinodkumar-flame.vercel.app/resumes/VinodKumar_Fullstack.pdf) |
+| [SDE1](https://vinodkumar-flame.vercel.app/resumes/VinodKumar_SDE1.pdf) | General / early-career SWE | [Download](https://vinodkumar-flame.vercel.app/resumes/VinodKumar_SDE1.pdf) |
 
 </details>
 
@@ -181,12 +177,12 @@ Browse the full collection → [@Nvinod007?tab=repositories](https://github.com/
 
 ## Certs & education
 
-|                                                   |                                                                                                                                   |
-| ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| **Certified SAFe Agile Scrum Master**             | [Cert PDF](https://github.com/Nvinod007/documents/blob/main/office/2_carrier/scrum_master_certif.pdf)                             |
-| **AWS Certified AI Practitioner**                 | [Credential](https://www.linkedin.com/posts/nvinod007_aws-certified-ai-practitioner-activity-7446473907525795840-DTWW) · Apr 2026 |
-| **Supervised Machine Learning** (DeepLearning.AI) | [Credential](https://www.linkedin.com/posts/nvinod007_coursera-supervised-learning-activity-7452754626623406080-NZ2w) · Apr 2026  |
-| **B.Tech CSE**                                    | RGUKT IIIT RKV · CGPA **8.4** · May 2023                                                                                          |
+| | |
+|---|---|
+| **Certified SAFe Agile Scrum Master** | [Cert PDF](https://github.com/Nvinod007/documents/blob/main/office/2_carrier/scrum_master_certif.pdf) |
+| **AWS Certified AI Practitioner** | [Credential](https://www.linkedin.com/posts/nvinod007_aws-certified-ai-practitioner-activity-7446473907525795840-DTWW) · Apr 2026 |
+| **Supervised Machine Learning** (DeepLearning.AI) | [Credential](https://www.linkedin.com/posts/nvinod007_coursera-supervised-learning-activity-7452754626623406080-NZ2w) · Apr 2026 |
+| **B.Tech CSE** | RGUKT IIIT RKV · CGPA **8.4** · May 2023 |
 
 ---
 
