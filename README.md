@@ -18,7 +18,7 @@
 
 **Software Engineer · React Native · React · TypeScript**
 
-📍 Hyderabad · **Software Engineer** · Apr 2023 – Present · promoted from Associate Software Engineer · **3 years shipping production apps**
+📍 Hyderabad · **Software Engineer** · **3 years shipping production apps**
 
 <br/>
 
